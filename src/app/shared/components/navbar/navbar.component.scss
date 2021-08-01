@@ -1,0 +1,20 @@
+.navbar-av {
+  background: #ff6859;
+  .btn-AV {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    border-color: #ffffff;
+    background: #ff6859;
+    margin: 0px 0px 0px 13px;
+    padding: 8px 8.5px; 
+    font-family: 1px 'Open Sans', sans-serif !important;
+    color: #ffff;
+    letter-spacing: 0.1rem;
+    font-weight: 550;
+    .material-icons {
+        margin-left: 5px;
+      }
+  }
+}
+
