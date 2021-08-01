@@ -11,6 +11,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { LogoComponent } from './components/logo/logo.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,11 +24,15 @@ import { LogoComponent } from './components/logo/logo.component';
     NgbModule,
     MatButtonModule,
     MatIconModule,
-    RouterModule
+    RouterModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   exports: [
     NavbarComponent,
     FooterComponent,
+    FormsModule,
+    ReactiveFormsModule 
   ]
 })
 export class SharedModule { }
