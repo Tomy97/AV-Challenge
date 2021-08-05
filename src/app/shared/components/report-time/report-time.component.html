@@ -1,7 +1,38 @@
 <div class="card shadow">
   <div class="card-body">
-    <h2 class="text-center">{{ title }}</h2>
+    <h2 class="text-center text-blue">{{ title }}</h2>
     <hr />
-    
+    <div class="row">
+      <div class="col-md-8">
+        <p class="text-shadow">
+          {{ pais }}
+        </p>
+        <p class="text-shadow">
+          {{ ciudad }}
+        </p>
+        <h1 class="text-day-state">
+          {{ day | uppercase }}
+          <h3 class="text-day-state">
+            {{ stay | uppercase }}
+          </h3>
+        </h1>
+        <div class="div_temp">
+          <h1 class="text-temperture">
+            {{ tempertureC }}
+          </h1>
+        </div>
+        <div class="div_cels">
+          <span class="text-cels">
+            °C
+          </span>
+        </div>
+        <div class='div_Faren'>
+            <p class="text_Faren">
+                {{ tempertureF }}
+                °F
+            </p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

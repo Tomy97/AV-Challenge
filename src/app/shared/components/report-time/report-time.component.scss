@@ -1,6 +1,40 @@
-h2 { 
-    color: #484CF8
-}
-hr {
-    background: #484CF8;
+.card {
+  .text-blue {
+    color: #484cf8;
+  }
+  hr {
+    background: #484cf8;
+  }
+  .text-shadow {
+    color: #939393;
+    font-weight: 400;
+  }
+  .text-day-state {
+    letter-spacing: 0.2rem;
+    font-weight: 550;
+  }
+  .div_temp {
+    display: inline-block;
+    .text-temperture {
+      font-size: 3.5rem;
+      font-weight: 500;
+    }
+  }
+  .div_cels {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    .text-cels {
+      font-size: 1.5rem;
+      font-weight: 550;
+    }
+  }
+  .div_Faren {
+    .text_Faren {
+      margin-top: 5px;
+      font-weight: 570;
+      font-size: 0.8rem;
+      letter-spacing: 0.2rem;
+    }
+  }
 }
